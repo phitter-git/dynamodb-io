@@ -14,7 +14,7 @@ const fs  = require('fs')
 
 AWS.config.loadFromPath('./aws-config.json')
 
-const fileName = `${tableName}.csv`
+const fileName = `${tableName}.dynamodb`
 const dynamodb = new AWS.DynamoDB()
 const params = {
   TableName: tableName

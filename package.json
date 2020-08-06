@@ -1,18 +1,17 @@
 {
   "name": "dynamodb-io",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "phitter",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.726.0",
     "commander": "^6.0.0",
-    "csv": "^5.3.2",
-    "fs": "0.0.1-security"
+    "csv": "^5.3.2"
   }
 }

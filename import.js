@@ -15,7 +15,7 @@ const csv = require('csv')
 
 AWS.config.loadFromPath('./aws-config.json')
 
-const fileName = `${tableName}.csv`
+const fileName = `${tableName}.dynamodb`
 const dynamodb = new AWS.DynamoDB()
 
 fs.readFile(fileName, (err, data) => {
